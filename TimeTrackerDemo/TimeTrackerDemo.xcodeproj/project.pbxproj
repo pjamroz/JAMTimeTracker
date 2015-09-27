@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68C4659B1BB7E51800F321FC /* JAMTimeTrackerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C4659A1BB7E51800F321FC /* JAMTimeTrackerView.m */; settings = {ASSET_TAGS = (); }; };
+		68C4659E1BB7E53E00F321FC /* JAMTimeTrackerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C4659D1BB7E53E00F321FC /* JAMTimeTrackerManager.m */; settings = {ASSET_TAGS = (); }; };
 		68F026191BB7E3C100E24A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F026181BB7E3C100E24A47 /* main.m */; };
 		68F0261C1BB7E3C100E24A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0261B1BB7E3C100E24A47 /* AppDelegate.m */; };
 		68F0261F1BB7E3C100E24A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F0261E1BB7E3C100E24A47 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68C465991BB7E51800F321FC /* JAMTimeTrackerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAMTimeTrackerView.h; path = JAMTimeTracker/JAMTimeTrackerView.h; sourceTree = "<group>"; };
+		68C4659A1BB7E51800F321FC /* JAMTimeTrackerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAMTimeTrackerView.m; path = JAMTimeTracker/JAMTimeTrackerView.m; sourceTree = "<group>"; };
+		68C4659C1BB7E53E00F321FC /* JAMTimeTrackerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAMTimeTrackerManager.h; path = JAMTimeTracker/JAMTimeTrackerManager.h; sourceTree = "<group>"; };
+		68C4659D1BB7E53E00F321FC /* JAMTimeTrackerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAMTimeTrackerManager.m; path = JAMTimeTracker/JAMTimeTrackerManager.m; sourceTree = "<group>"; };
 		68F026141BB7E3C100E24A47 /* TimeTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F026181BB7E3C100E24A47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68F0261A1BB7E3C100E24A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68C465981BB7E4E900F321FC /* JAMTimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				68C465991BB7E51800F321FC /* JAMTimeTrackerView.h */,
+				68C4659A1BB7E51800F321FC /* JAMTimeTrackerView.m */,
+				68C4659C1BB7E53E00F321FC /* JAMTimeTrackerManager.h */,
+				68C4659D1BB7E53E00F321FC /* JAMTimeTrackerManager.m */,
+			);
+			name = JAMTimeTracker;
+			sourceTree = "<group>";
+		};
 		68F0260B1BB7E3C100E24A47 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 		68F026161BB7E3C100E24A47 /* TimeTrackerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				68C465981BB7E4E900F321FC /* JAMTimeTracker */,
 				68F0261A1BB7E3C100E24A47 /* AppDelegate.h */,
 				68F0261B1BB7E3C100E24A47 /* AppDelegate.m */,
 				68F0261D1BB7E3C100E24A47 /* ViewController.h */,
@@ -212,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F0261F1BB7E3C100E24A47 /* ViewController.m in Sources */,
+				68C4659E1BB7E53E00F321FC /* JAMTimeTrackerManager.m in Sources */,
+				68C4659B1BB7E51800F321FC /* JAMTimeTrackerView.m in Sources */,
 				68F0261C1BB7E3C100E24A47 /* AppDelegate.m in Sources */,
 				68F026191BB7E3C100E24A47 /* main.m in Sources */,
 			);
@@ -400,6 +420,7 @@
 				68F026381BB7E3C100E24A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68F026391BB7E3C100E24A47 /* Build configuration list for PBXNativeTarget "TimeTrackerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +429,7 @@
 				68F0263B1BB7E3C100E24A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
