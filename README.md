@@ -1,3 +1,6 @@
+![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/pjamroz/JAMTimeTracker/master/LICENSE)
+
 #JAMTimeTracker
 
 A simple custom timer controls written in Objective C. You can handle it with delegate methods.
